@@ -1,0 +1,19 @@
+li li {
+    height: 0;
+    visibility: hidden;
+}
+
+li:hover > * > li {
+    height: auto;
+    visibility: visible;
+}
+
+/* li:hover > * > li li  {
+    height: auto;
+    visibility: visible;
+} */
+
+/* li span {
+    height: 0;
+    visibility: hidden;
+} */

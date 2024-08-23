@@ -8,6 +8,14 @@ li:hover > * > li {
     visibility: visible;
 }
 
+/*
+    all li elements insie will become visible
+
+li:hover  li {
+    height: auto;
+    visibility: visible;
+}
+*/
 /* li:hover > * > li li  {
     height: auto;
     visibility: visible;

@@ -17,3 +17,19 @@
     color: blueviolet;
 }
 
+.outer .inner {
+    background-color: brown;
+}
+
+.outer > .inner {
+    background-color: chartreuse;
+}
+
+
+div ~ p {
+    color: darkblue;
+}
+
+div + p {
+    color: green;
+}

@@ -13,5 +13,29 @@
     <p >para four</p>
     <p class="right">para five</p>
     <div class="c1 c2">I am here to check</div>
+
+    <!-- Descendent Combinator -->
+    <div class="outer">
+        <div class="middle">
+            <p class="inner">
+                inner para in outer div
+            </p>
+        </div>
+    </div>
+
+    <!-- Child Combinator -->
+    <div class="outer">
+        <p class="inner">
+            inner para in outer div
+        </p>
+    </div>
+
+    <!-- Adjacent Sibling Combinator -->
+    <div>this is div</div>
+    <p>this is adjacent to div</p>
+    <i>this is to make next p element non adjacent to div element</i>
+    <!-- General Sibling Combinator -->
+    <p>this is not adjacent</p>
+
 </body>
 </html>
